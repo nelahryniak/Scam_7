@@ -1,3 +1,24 @@
+let img;
+let firebaseConfig;
+let  datebase;
+let liczba;
+let liczba2;
+
+function preload() {
+  img = loadImage('Untitled_Artwork.png');
+}
+
+function setup() {
+  
+  imageMode(CENTER,CENTER);
+  
+  createCanvas(windowWidth, windowHeight);
+  firebaseConfig = {
+  apiKey: "AIzaSyA1jvrzvxclRkIuum9esmOfoXdPHKRY8FY",
+  authDomain: "scam-2b8b2.firebaseapp.com",
+  projectId: "scam-2b8b2",
+  storageBucket: "scam-2b8b2.firebasestorage.app",
+  messagingSenderId: "687137609047",
   appId: "1:687137609047:web:1b186a62144c3e9b969a12",
     databaseURL:"https://scam-2b8b2-default-rtdb.europe-west1.firebasedatabase.app/"
 };
